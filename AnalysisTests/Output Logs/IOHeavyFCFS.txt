@@ -1,0 +1,34 @@
+New process "burnCD" created at 1
+process "burnCD" dispatched to CPU at 1
+process "burnCD" moved to IO Queue at 2
+New process "StanleyParable" created at 3
+process "StanleyParable" dispatched to CPU at 3
+process "StanleyParable" moved to IO Queue at 9
+process "StanleyParable" I/O completed, moving to Ready Queue at 32
+process "StanleyParable" dispatched to CPU at 33
+process "StanleyParable" moved to IO Queue at 34
+process "burnCD" I/O completed, moving to Ready Queue at 35
+process "burnCD" dispatched to CPU at 36
+process "burnCD" moved to IO Queue at 37
+process "StanleyParable" I/O completed, moving to Ready Queue at 40
+process "StanleyParable" dispatched to CPU at 41
+process "StanleyParable" moved to IO Queue at 43
+process "StanleyParable" I/O completed, moving to Ready Queue at 70
+process "burnCD" I/O completed, moving to Ready Queue at 70
+process "StanleyParable" dispatched to CPU at 71
+process "burnCD" dispatched to CPU at 71
+process terminated : {Name : StanleyParable, turnaround time : 69, response time : 0, CPU wait time : 0, I/O wait time : 0}  at 71
+process terminated : {Name : burnCD, turnaround time : 72, response time : 0, CPU wait time : 0, I/O wait time : 0}  at 72
+
+Final statistics:
+Total Processes: 2
+Algorithm used: FCFS
+Quantum length: 0 ticks
+CPUs used: 2
+I/Os used: 2
+Total time taken: 72 ticks
+Total wait time: 0 ticks
+Average CPU usage: 13.19%
+Average throughput: 36.00 ticks/process
+Average wait time: 0.00 ticks/process
+Average response time: 0.00 ticks

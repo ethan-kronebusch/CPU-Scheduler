@@ -1,0 +1,9 @@
+New process lowP created at 1
+process lowP dispatched to CPU at 1
+New process MidP created at 2
+New process HighP created at 3
+process terminated : {Name : lowP, turnaround time : 2, CPU wait time : 0, I/O wait time : 0}  at 3
+process MidP dispatched to CPU at 4
+process terminated : {Name : MidP, turnaround time : 3, CPU wait time : 2, I/O wait time : 0}  at 5
+process HighP dispatched to CPU at 6
+process terminated : {Name : HighP, turnaround time : 5, CPU wait time : 3, I/O wait time : 0}  at 8

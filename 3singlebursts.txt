@@ -1,0 +1,13 @@
+New process lowP created at 1
+process lowP dispatched to CPU at 1
+New process MidP created at 2
+process lowP preempted and put back in READY Queue at 2
+process MidP dispatched to CPU at 2
+New process HighP created at 3
+process MidP preempted and put back in READY Queue at 3
+process HighP dispatched to CPU at 3
+process terminated : {Name : HighP, turnaround time : 2, CPU wait time : 0, I/O wait time : 0}  at 5
+process MidP dispatched to CPU at 6
+process terminated : {Name : MidP, turnaround time : 4, CPU wait time : 3, I/O wait time : 0}  at 6
+process lowP dispatched to CPU at 7
+process terminated : {Name : lowP, turnaround time : 7, CPU wait time : 5, I/O wait time : 0}  at 8

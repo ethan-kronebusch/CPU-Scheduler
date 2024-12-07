@@ -1,0 +1,43 @@
+New process "Minecraft" created at 1
+process "Minecraft" dispatched to CPU at 1
+New process "BigNumbers" created at 3
+process "BigNumbers" dispatched to CPU at 3
+New process "BitcoinMiner" created at 7
+process "Minecraft" ran out of time slice, it was preempted and put back in the READY queue at 10
+process "BitcoinMiner" dispatched to CPU at 11
+process "BigNumbers" ran out of time slice, it was preempted and put back in the READY queue at 12
+process "Minecraft" dispatched to CPU at 13
+process "BitcoinMiner" ran out of time slice, it was preempted and put back in the READY queue at 20
+process "BigNumbers" dispatched to CPU at 21
+process "Minecraft" ran out of time slice, it was preempted and put back in the READY queue at 22
+process "BitcoinMiner" dispatched to CPU at 23
+process "BigNumbers" ran out of time slice, it was preempted and put back in the READY queue at 30
+process "Minecraft" dispatched to CPU at 31
+process "BitcoinMiner" ran out of time slice, it was preempted and put back in the READY queue at 32
+process "BigNumbers" dispatched to CPU at 33
+process "Minecraft" moved to IO Queue at 35
+process "BitcoinMiner" dispatched to CPU at 36
+process "BitcoinMiner" moved to IO Queue at 43
+process "Minecraft" I/O completed, moving to Ready Queue at 43
+process "Minecraft" dispatched to CPU at 44
+process "BigNumbers" moved to IO Queue at 44
+process "BitcoinMiner" I/O completed, moving to Ready Queue at 44
+process "BitcoinMiner" dispatched to CPU at 45
+process terminated : {Name : Minecraft, turnaround time : 65, response time : 1, CPU wait time : 8, I/O wait time : 0}  at 64
+process "BigNumbers" I/O completed, moving to Ready Queue at 65
+process "BigNumbers" dispatched to CPU at 66
+process terminated : {Name : BitcoinMiner, turnaround time : 62, response time : 4, CPU wait time : 6, I/O wait time : 0}  at 68
+process terminated : {Name : BigNumbers, turnaround time : 82, response time : 0, CPU wait time : 8, I/O wait time : 0}  at 84
+
+Final statistics:
+Total Processes: 3
+Algorithm used: RR
+Quantum length: 10 ticks
+CPUs used: 2
+I/Os used: 2
+Total time taken: 84 ticks
+Total wait time: 22 ticks
+Average CPU usage: 88.69%
+Average throughput: 28.00 ticks/process
+Average wait time: 7.33 ticks/process
+Average response time: 1.67 ticks

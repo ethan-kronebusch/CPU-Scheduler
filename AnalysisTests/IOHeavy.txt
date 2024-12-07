@@ -1,0 +1,2 @@
+StanleyParable 3 5 7 23 2 6 3 27 1
+burnCD 1 1 2 33 2 33 2

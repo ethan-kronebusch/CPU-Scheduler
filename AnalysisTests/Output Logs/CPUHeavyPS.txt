@@ -1,0 +1,33 @@
+New process "Minecraft" created at 1
+process "Minecraft" dispatched to CPU at 1
+New process "BigNumbers" created at 3
+process "BigNumbers" dispatched to CPU at 3
+New process "BitcoinMiner" created at 7
+process "Minecraft" moved to IO Queue at 25
+process "BitcoinMiner" dispatched to CPU at 26
+process "Minecraft" I/O completed, moving to Ready Queue at 33
+process "BitcoinMiner" preempted and put back in READY Queue at 34
+process "Minecraft" dispatched to CPU at 34
+process "BigNumbers" moved to IO Queue at 34
+process "BitcoinMiner" dispatched to CPU at 35
+process "BitcoinMiner" moved to IO Queue at 54
+process terminated : {Name : Minecraft, turnaround time : 55, response time : 1, CPU wait time : 0, I/O wait time : 0}  at 54
+process "BigNumbers" I/O completed, moving to Ready Queue at 55
+process "BitcoinMiner" I/O completed, moving to Ready Queue at 55
+process "BigNumbers" dispatched to CPU at 56
+process "BitcoinMiner" dispatched to CPU at 56
+process terminated : {Name : BigNumbers, turnaround time : 72, response time : 0, CPU wait time : 0, I/O wait time : 0}  at 74
+process terminated : {Name : BitcoinMiner, turnaround time : 73, response time : 19, CPU wait time : 18, I/O wait time : 0}  at 79
+
+Final statistics:
+Total Processes: 3
+Algorithm used: PS
+Quantum length: 0 ticks
+CPUs used: 2
+I/Os used: 2
+Total time taken: 79 ticks
+Total wait time: 18 ticks
+Average CPU usage: 94.30%
+Average throughput: 26.33 ticks/process
+Average wait time: 6.00 ticks/process
+Average response time: 6.67 ticks

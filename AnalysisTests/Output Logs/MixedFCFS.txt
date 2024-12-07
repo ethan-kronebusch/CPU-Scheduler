@@ -1,0 +1,124 @@
+New process "Windows" created at 1
+process "Windows" dispatched to CPU at 1
+New process "SourceTree" created at 2
+process "SourceTree" dispatched to CPU at 2
+process "Windows" moved to IO Queue at 2
+New process "IntelliJ" created at 4
+process "IntelliJ" dispatched to CPU at 4
+process "Windows" I/O completed, moving to Ready Queue at 5
+process "SourceTree" moved to IO Queue at 6
+process "Windows" dispatched to CPU at 7
+process "Windows" moved to IO Queue at 8
+process "Windows" I/O completed, moving to Ready Queue at 10
+process "IntelliJ" moved to IO Queue at 10
+process "Windows" dispatched to CPU at 11
+New process "FileExplorer" created at 12
+process "FileExplorer" dispatched to CPU at 12
+process "SourceTree" I/O completed, moving to Ready Queue at 13
+process "FileExplorer" moved to IO Queue at 13
+process "SourceTree" dispatched to CPU at 14
+process "Windows" moved to IO Queue at 14
+process "IntelliJ" I/O completed, moving to Ready Queue at 14
+process "IntelliJ" dispatched to CPU at 15
+process "IntelliJ" moved to IO Queue at 15
+process "SourceTree" moved to IO Queue at 15
+process "FileExplorer" I/O completed, moving to Ready Queue at 15
+process "FileExplorer" dispatched to CPU at 16
+process "FileExplorer" moved to IO Queue at 16
+process "Windows" I/O completed, moving to Ready Queue at 17
+process "Windows" dispatched to CPU at 18
+process "Windows" moved to IO Queue at 19
+process "IntelliJ" I/O completed, moving to Ready Queue at 19
+process "IntelliJ" dispatched to CPU at 20
+process "FileExplorer" I/O completed, moving to Ready Queue at 20
+process "FileExplorer" dispatched to CPU at 21
+process "IntelliJ" moved to IO Queue at 21
+process "SourceTree" I/O completed, moving to Ready Queue at 21
+process "Windows" I/O completed, moving to Ready Queue at 21
+process "SourceTree" dispatched to CPU at 22
+process "FileExplorer" moved to IO Queue at 23
+process "Windows" dispatched to CPU at 24
+process "Windows" moved to IO Queue at 24
+process "FileExplorer" I/O completed, moving to Ready Queue at 26
+process "IntelliJ" I/O completed, moving to Ready Queue at 26
+process "FileExplorer" dispatched to CPU at 27
+process "Windows" I/O completed, moving to Ready Queue at 27
+process terminated : {Name : SourceTree, turnaround time : 28, response time : 0, CPU wait time : 0, I/O wait time : 1}  at 29
+New process "OverWatch" created at 30
+process "IntelliJ" dispatched to CPU at 30
+process "FileExplorer" moved to IO Queue at 30
+process "Windows" dispatched to CPU at 31
+process "Windows" moved to IO Queue at 31
+process "OverWatch" dispatched to CPU at 32
+process "Windows" I/O completed, moving to Ready Queue at 33
+process "FileExplorer" I/O completed, moving to Ready Queue at 34
+process "OverWatch" moved to IO Queue at 39
+process "Windows" dispatched to CPU at 40
+process "IntelliJ" moved to IO Queue at 41
+process "OverWatch" I/O completed, moving to Ready Queue at 41
+process "Windows" moved to IO Queue at 41
+process "FileExplorer" dispatched to CPU at 42
+process "OverWatch" dispatched to CPU at 42
+process "IntelliJ" I/O completed, moving to Ready Queue at 43
+process "Windows" I/O completed, moving to Ready Queue at 44
+process "FileExplorer" moved to IO Queue at 46
+process "IntelliJ" dispatched to CPU at 47
+process "OverWatch" moved to IO Queue at 47
+process "Windows" dispatched to CPU at 48
+process "Windows" moved to IO Queue at 48
+process "OverWatch" I/O completed, moving to Ready Queue at 49
+process "OverWatch" dispatched to CPU at 50
+process "Windows" I/O completed, moving to Ready Queue at 51
+process "FileExplorer" I/O completed, moving to Ready Queue at 51
+process "OverWatch" moved to IO Queue at 53
+process "Windows" dispatched to CPU at 54
+process "OverWatch" I/O completed, moving to Ready Queue at 54
+process "Windows" moved to IO Queue at 56
+process "FileExplorer" dispatched to CPU at 57
+process terminated : {Name : IntelliJ, turnaround time : 54, response time : 0, CPU wait time : 4, I/O wait time : 0}  at 57
+process "OverWatch" dispatched to CPU at 58
+process "Windows" I/O completed, moving to Ready Queue at 58
+process "OverWatch" moved to IO Queue at 60
+process "Windows" dispatched to CPU at 61
+process "Windows" moved to IO Queue at 61
+process "OverWatch" I/O completed, moving to Ready Queue at 61
+process "OverWatch" dispatched to CPU at 62
+process "FileExplorer" moved to IO Queue at 62
+process "Windows" I/O completed, moving to Ready Queue at 62
+process "Windows" dispatched to CPU at 63
+process terminated : {Name : Windows, turnaround time : 63, response time : 0, CPU wait time : 12, I/O wait time : 1}  at 63
+process "OverWatch" moved to IO Queue at 65
+process "OverWatch" I/O completed, moving to Ready Queue at 66
+process "OverWatch" dispatched to CPU at 67
+process "FileExplorer" I/O completed, moving to Ready Queue at 68
+process "FileExplorer" dispatched to CPU at 69
+process "OverWatch" moved to IO Queue at 72
+process "OverWatch" I/O completed, moving to Ready Queue at 74
+process "OverWatch" dispatched to CPU at 75
+process "FileExplorer" moved to IO Queue at 75
+process "FileExplorer" I/O completed, moving to Ready Queue at 82
+process "FileExplorer" dispatched to CPU at 83
+process "OverWatch" moved to IO Queue at 83
+process "OverWatch" I/O completed, moving to Ready Queue at 88
+process "OverWatch" dispatched to CPU at 89
+process "FileExplorer" moved to IO Queue at 90
+process terminated : {Name : OverWatch, turnaround time : 64, response time : 2, CPU wait time : 3, I/O wait time : 0}  at 93
+process "FileExplorer" I/O completed, moving to Ready Queue at 98
+process "FileExplorer" dispatched to CPU at 99
+process "FileExplorer" moved to IO Queue at 107
+process "FileExplorer" I/O completed, moving to Ready Queue at 116
+process "FileExplorer" dispatched to CPU at 117
+process terminated : {Name : FileExplorer, turnaround time : 117, response time : 0, CPU wait time : 10, I/O wait time : 2}  at 128
+
+Final statistics:
+Total Processes: 5
+Algorithm used: FCFS
+Quantum length: 0 ticks
+CPUs used: 2
+I/Os used: 2
+Total time taken: 128 ticks
+Total wait time: 29 ticks
+Average CPU usage: 66.41%
+Average throughput: 25.60 ticks/process
+Average wait time: 5.80 ticks/process
+Average response time: 0.40 ticks
